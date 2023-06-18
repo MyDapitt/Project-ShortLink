@@ -17,7 +17,6 @@ body {
   
   .api-link {
     text-decoration: none;
-    color: #ff69b4;
     font-size: 20px;
   }
   
@@ -77,6 +76,5 @@ body {
   
   #shorten-result {
     font-size: 20px;
-    color: #333333;
     font-family: 'Hack', monospace;
   }
