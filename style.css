@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Hack', monospace;
   }
   
   form {
@@ -23,6 +24,7 @@
     margin-bottom: 10px;
     padding: 5px;
     font-size: 20px;
+    font-family: 'Hack', monospace;
   }
   
   button[type="submit"] {
@@ -35,6 +37,7 @@
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
+    font-family: 'Hack', monospace;
   }
   
   #result {
@@ -47,4 +50,5 @@
   #shorten-result {
     font-size: 20px;
     color: #333333;
+    font-family: 'Hack', monospace;
   }
