@@ -6,7 +6,7 @@ form.addEventListener('submit', async (event) => {
 
   const originalUrl = document.querySelector('#original-url').value;
 
-  const response = await fetch('/api/shorten', {
+  const response = await fetch('/.netlify/functions/shorten', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
