@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost/url-shortener', {
+mongoose.connect('mongodb+srv://sazumiviki:sazumi2005@sazumiviki.hk7jpu9.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
